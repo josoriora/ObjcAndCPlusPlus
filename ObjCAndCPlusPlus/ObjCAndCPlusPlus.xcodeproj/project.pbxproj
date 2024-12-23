@@ -11,6 +11,10 @@
 		96B3390A2D19B9CE00DBD088 /* ObjCAndCPlusPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B338FF2D19B9CE00DBD088 /* ObjCAndCPlusPlus.framework */; };
 		96B3390F2D19B9CE00DBD088 /* ObjCAndCPlusPlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B3390E2D19B9CE00DBD088 /* ObjCAndCPlusPlusTests.m */; };
 		96B339102D19B9CE00DBD088 /* ObjCAndCPlusPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B339022D19B9CE00DBD088 /* ObjCAndCPlusPlus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96B3391A2D19BEDA00DBD088 /* EncryptHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B339192D19BEDA00DBD088 /* EncryptHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96B3391C2D19BF3500DBD088 /* EncryptHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 96B3391B2D19BF3500DBD088 /* EncryptHelper.mm */; };
+		96B3391F2D19BFF400DBD088 /* BasicEncHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B3391D2D19BFF400DBD088 /* BasicEncHelper.cpp */; };
+		96B339202D19BFF400DBD088 /* BasicEncHelper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 96B3391E2D19BFF400DBD088 /* BasicEncHelper.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		96B339032D19B9CE00DBD088 /* ObjCAndCPlusPlus.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ObjCAndCPlusPlus.docc; sourceTree = "<group>"; };
 		96B339092D19B9CE00DBD088 /* ObjCAndCPlusPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjCAndCPlusPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B3390E2D19B9CE00DBD088 /* ObjCAndCPlusPlusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCAndCPlusPlusTests.m; sourceTree = "<group>"; };
+		96B339192D19BEDA00DBD088 /* EncryptHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptHelper.h; sourceTree = "<group>"; };
+		96B3391B2D19BF3500DBD088 /* EncryptHelper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = EncryptHelper.mm; sourceTree = "<group>"; };
+		96B3391D2D19BFF400DBD088 /* BasicEncHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BasicEncHelper.cpp; sourceTree = "<group>"; };
+		96B3391E2D19BFF400DBD088 /* BasicEncHelper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BasicEncHelper.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				96B339022D19B9CE00DBD088 /* ObjCAndCPlusPlus.h */,
+				96B339192D19BEDA00DBD088 /* EncryptHelper.h */,
+				96B3391B2D19BF3500DBD088 /* EncryptHelper.mm */,
+				96B3391D2D19BFF400DBD088 /* BasicEncHelper.cpp */,
+				96B3391E2D19BFF400DBD088 /* BasicEncHelper.hpp */,
 				96B339032D19B9CE00DBD088 /* ObjCAndCPlusPlus.docc */,
 			);
 			path = ObjCAndCPlusPlus;
@@ -92,7 +104,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B3391A2D19BEDA00DBD088 /* EncryptHelper.h in Headers */,
 				96B339102D19B9CE00DBD088 /* ObjCAndCPlusPlus.h in Headers */,
+				96B339202D19BFF400DBD088 /* BasicEncHelper.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +208,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				96B339042D19B9CE00DBD088 /* ObjCAndCPlusPlus.docc in Sources */,
+				96B3391F2D19BFF400DBD088 /* BasicEncHelper.cpp in Sources */,
+				96B3391C2D19BF3500DBD088 /* EncryptHelper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

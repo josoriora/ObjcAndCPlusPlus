@@ -6,6 +6,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <ObjCAndCPlusPlus/EncryptHelper.h>
 
 @interface ObjCAndCPlusPlusTests : XCTestCase
 
@@ -24,6 +25,10 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    EncryptHelper * helper = [EncryptHelper sharedHelper];
+    NSString *output = [helper encrypt:@"Hello, World"];
+    NSLog(output);
+    XCTAssertNotNil(output);
 }
 
 - (void)testPerformanceExample {
